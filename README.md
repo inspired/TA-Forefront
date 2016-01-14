@@ -88,7 +88,7 @@ Version 1.0.0 of the Add-on for Microsoft Forefront Threat Management Gateway in
 
 **For users who are not customers of Datametrix, best effort support is available via Splunk Answers**
 
-* Access questions and answers specific to the Add-on for Microsoft Forefront Threat Management Gateway at http://answers.splunk.com/app/questions/XXXX.html
+* Access questions and answers specific to the Add-on for Microsoft Forefront Threat Management Gateway at http://answers.splunk.com/app/questions/3011.html
 
 ## INSTALLATION AND CONFIGURATION
 
@@ -123,7 +123,7 @@ Because this add-on runs on Splunk Enterprise, all of the [Splunk Enterprise sys
 
 #### Download
 
-Download the Add-on for Microsoft Forefront Threat Management Gateway at https://apps.splunk.com/app/XXXX/.
+Download the Add-on for Microsoft Forefront Threat Management Gateway at https://apps.splunk.com/app/3011/.
 
 #### Installation steps
 
