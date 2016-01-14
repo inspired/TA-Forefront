@@ -162,7 +162,7 @@ This app must be installed on a Splunk Universal Forwarder running on a Microsof
 1. Copy TA-Microsoft_Forefront_TMG to /opt/splunk/etc/deployment-apps/ on your Deployment Server
 2. Move /opt/splunk/etc/deployment-apps/TA-Microsoft_Forefront_TMG/default/inputs.conf.spec to /opt/splunk/etc/deployment-apps/TA-Microsoft_Forefront_TMG/local/inputs.conf
 3. Edit the paths in /opt/splunk/etc/deployment-apps/TA-Microsoft_Forefront_TMG/local/inputs.conf to point to the log files produced by Microsoft Forefront Threat Management Gateway.
-4. Use 'Forwarder Management' in the Splunk Web Interface to deploy the app to your Splunk Universal Forwarder in order to start consuming the log files.
+4. Use Forwarder Management in the Splunk Web Interface to deploy the app to your Splunk Universal Forwarder in order to start consuming the log files.
 
 
 You may need to tune the logging parameters of your Microsoft Forefront Threat Management Gateway server. For instructions on this please consult the official product documentation.
