@@ -29,13 +29,13 @@
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 1.0.0 |
+| App Version | 1.0.1 |
 | Vendor Products | Microsoft Forefront Threat Management Gateway 2010 |
 | Has index-time operations | True |
 | Create an index | False |
 | Implements summarization | False |
 
-The Add-on for Microsoft Forefront Threat Management Gateway allows a Splunk® Enterprise administrator to extract and filter event information from the Microsoft Forefront Threat Management Gateway. The app sets the correct sourcetype and adds fields required for CIM compliance.
+The Add-on for Microsoft Forefront Threat Management Gateway allows a Splunk® Enterprise administrator to extract and filter event information from the Microsoft Forefront Threat Management Gateway. The app sets the correct sourcetype and adds fields required for CIM compliance. The app includes inputs that allow you to monitor Forefront TMG log files on your Forwarders.
 
 ##### Scripts and binaries
 
@@ -45,7 +45,7 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 1.0.0 of the Add-on for Microsoft Forefront Threat Management Gateway is compatible with:
+Version 1.0.1 of the Add-on for Microsoft Forefront Threat Management Gateway is compatible with:
 
 | Splunk Enterprise versions | 6.x |
 | --- | --- |
@@ -62,19 +62,19 @@ Add-on for Microsoft Forefront Threat Management Gateway includes the following 
 
 ##### Fixed issues
 
-Version 1.0.0 of the Add-on for Microsoft Forefront Threat Management Gateway fixes the following issues:
+Version 1.0.1 of the Add-on for Microsoft Forefront Threat Management Gateway fixes the following issues:
 
-- Initial release
+- Documentation best practices
 
 ##### Known issues
 
-Version 1.0.0 of the Add-on for Microsoft Forefront Threat Management Gateway has the following known issues:
+Version 1.0.1 of the Add-on for Microsoft Forefront Threat Management Gateway has the following known issues:
 
 - None known
 
 ##### Third-party software attributions
 
-Version 1.0.0 of the Add-on for Microsoft Forefront Threat Management Gateway incorporates the following third-party software or libraries.
+Version 1.0.1 of the Add-on for Microsoft Forefront Threat Management Gateway incorporates the following third-party software or libraries.
 
 - None
 
@@ -160,8 +160,8 @@ Follow these steps to install the app in a single server instance of Splunk Ente
 This app must be installed on a Splunk Universal Forwarder running on a Microsoft Windows host with access to the Forefront TMG w3c files.
 
 1. Copy TA-Microsoft_Forefront_TMG to /opt/splunk/etc/deployment-apps/ on your Deployment Server
-2. Move /opt/splunk/etc/deployment-apps/TA-Microsoft_Forefront_TMG/default/inputs.conf.spec to /opt/splunk/etc/deployment-apps/TA-Microsoft_Forefront_TMG/local/inputs.conf
-3. Edit the paths in /opt/splunk/etc/deployment-apps/TA-Microsoft_Forefront_TMG/local/inputs.conf to point to the log files produced by Microsoft Forefront Threat Management Gateway.
+2. Copy /opt/splunk/etc/deployment-apps/TA-Microsoft_Forefront_TMG/default/inputs.conf to /opt/splunk/etc/deployment-apps/TA-Microsoft_Forefront_TMG/local/inputs.conf
+3. Uncomment the monitor stanzas and change the paths in /opt/splunk/etc/deployment-apps/TA-Microsoft_Forefront_TMG/local/inputs.conf to point to the log files produced by Microsoft Forefront Threat Management Gateway.
 4. Use Forwarder Management in the Splunk Web Interface to deploy the app to your Splunk Universal Forwarder in order to start consuming the log files.
 
 
