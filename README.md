@@ -29,7 +29,7 @@
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 1.0.1 |
+| App Version | 1.0.2 |
 | Vendor Products | Microsoft Forefront Threat Management Gateway 2010 |
 | Has index-time operations | True |
 | Create an index | False |
@@ -45,7 +45,7 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 1.0.1 of the Add-on for Microsoft Forefront Threat Management Gateway is compatible with:
+Version 1.0.2 of the Add-on for Microsoft Forefront Threat Management Gateway is compatible with:
 
 | Splunk Enterprise versions | 6.x |
 | --- | --- |
@@ -62,19 +62,19 @@ Add-on for Microsoft Forefront Threat Management Gateway includes the following 
 
 ##### Fixed issues
 
-Version 1.0.1 of the Add-on for Microsoft Forefront Threat Management Gateway fixes the following issues:
+Version 1.0.2 of the Add-on for Microsoft Forefront Threat Management Gateway fixes the following issues:
 
 - Documentation best practices
 
 ##### Known issues
 
-Version 1.0.1 of the Add-on for Microsoft Forefront Threat Management Gateway has the following known issues:
+Version 1.0.2 of the Add-on for Microsoft Forefront Threat Management Gateway has the following known issues:
 
 - None known
 
 ##### Third-party software attributions
 
-Version 1.0.1 of the Add-on for Microsoft Forefront Threat Management Gateway incorporates the following third-party software or libraries.
+Version 1.0.2 of the Add-on for Microsoft Forefront Threat Management Gateway incorporates the following third-party software or libraries.
 
 - None
 
