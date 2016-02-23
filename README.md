@@ -193,8 +193,8 @@ These data types support the following Common Information Model data models:
 
 | Source Type | CIM Data Models |
 | --- | --- |
-| microsoft:forefront:tmg:proxy | Web|
-| microsoft:forefront:tmg:fw | Network Traffic|
+| microsoft:forefront:tmg:proxy | Web |
+| microsoft:forefront:tmg:fw | Network Traffic |
 
 
 ### Lookups
