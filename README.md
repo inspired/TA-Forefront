@@ -80,13 +80,7 @@ Version 1.0.2 of the Add-on for Microsoft Forefront Threat Management Gateway in
 
 ##### Support and resources
 
-**The Add-on for Microsoft Forefront Threat Management Gateway for Splunk Enterprise is supported for all users who have a Splunk Support Contract with Datametrix**
-
-* Hours: Mon-Fri 08:00 - 16:00 Central European Time
-* Observed Holidays: All Norwegian Public Holidays, December 23 to January 2, Palm Sunday to Easter Monday.
-* Support URL: https://github.com/inspired/TA-Microsoft_Forefront_TMG/issues
-
-**For users who are not customers of Datametrix, best effort support is available via Splunk Answers**
+**This app is community supported on a best effort basis. In case you have needs for professional support billed by the hour, please contact the author.
 
 * Access questions and answers specific to the Add-on for Microsoft Forefront Threat Management Gateway at http://answers.splunk.com/app/questions/3011.html
 
